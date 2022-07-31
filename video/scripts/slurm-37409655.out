@@ -1,0 +1,13 @@
+To execute the default application inside the container, run:
+singularity run --nv $CONTAINERDIR/deeplabcut-2.2.sif
+
+2022-04-20 16:27:09.346822: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+/opt/conda/lib/python3.8/site-packages/deeplabcut/utils/conversioncode.py:72: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.
+  Data.index = Data.index.str.replace("\\", "/")
+/opt/conda/lib/python3.8/site-packages/deeplabcut/utils/conversioncode.py:64: UserWarning: Could not find '/scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/labeled-data/70/CollectedData_kmt2ns.h5'. skipping
+  warnings.warn(f"Could not find '{fn+'.h5'}'. skipping")
+/opt/conda/lib/python3.8/site-packages/deeplabcut/utils/conversioncode.py:64: UserWarning: Could not find '/scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/labeled-data/104/CollectedData_kmt2ns.h5'. skipping
+  warnings.warn(f"Could not find '{fn+'.h5'}'. skipping")
+/scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/labeled-data/70/CollectedData_kmt2ns.h5  not found (perhaps not annotated).
+/scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/labeled-data/104/CollectedData_kmt2ns.h5  not found (perhaps not annotated).
+Excluding the following folder (from training): 104

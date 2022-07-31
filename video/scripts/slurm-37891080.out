@@ -1,0 +1,87 @@
+To execute the default application inside the container, run:
+singularity run --nv $CONTAINERDIR/deeplabcut-2.2.sif
+
+2022-04-27 17:40:23.467939: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-04-27 17:40:31.314927: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-04-27 17:40:31.317953: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2022-04-27 17:40:31.464120: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:31.466089: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:3e:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:31.466915: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 2 with properties: 
+pciBusID: 0000:88:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:31.467696: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 3 with properties: 
+pciBusID: 0000:89:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:31.467736: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-04-27 17:40:31.491169: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2022-04-27 17:40:31.491256: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2022-04-27 17:40:31.504078: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-04-27 17:40:31.510776: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-04-27 17:40:31.532865: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-04-27 17:40:31.538960: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2022-04-27 17:40:31.540253: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2022-04-27 17:40:31.546704: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1, 2, 3
+2022-04-27 17:40:31.547227: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-27 17:40:31.548996: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2022-04-27 17:40:32.080916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3d:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:32.081882: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:3e:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:32.082699: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 2 with properties: 
+pciBusID: 0000:88:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:32.085312: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 3 with properties: 
+pciBusID: 0000:89:00.0 name: Tesla V100-PCIE-16GB computeCapability: 7.0
+coreClock: 1.38GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2022-04-27 17:40:32.085360: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-04-27 17:40:32.085442: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2022-04-27 17:40:32.085471: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2022-04-27 17:40:32.085498: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2022-04-27 17:40:32.085524: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2022-04-27 17:40:32.085550: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2022-04-27 17:40:32.085576: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2022-04-27 17:40:32.085603: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2022-04-27 17:40:32.091284: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1, 2, 3
+2022-04-27 17:40:32.092916: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2022-04-27 17:40:34.862438: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2022-04-27 17:40:34.862563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1 2 3 
+2022-04-27 17:40:34.862583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y Y Y 
+2022-04-27 17:40:34.862597: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N Y Y 
+2022-04-27 17:40:34.862611: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 2:   Y Y N Y 
+2022-04-27 17:40:34.862625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 3:   Y Y Y N 
+2022-04-27 17:40:34.867816: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14680 MB memory) -> physical GPU (device: 0, name: Tesla V100-PCIE-16GB, pci bus id: 0000:3d:00.0, compute capability: 7.0)
+2022-04-27 17:40:34.872199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 14739 MB memory) -> physical GPU (device: 1, name: Tesla V100-PCIE-16GB, pci bus id: 0000:3e:00.0, compute capability: 7.0)
+2022-04-27 17:40:34.874108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 14739 MB memory) -> physical GPU (device: 2, name: Tesla V100-PCIE-16GB, pci bus id: 0000:88:00.0, compute capability: 7.0)
+2022-04-27 17:40:34.875943: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 14739 MB memory) -> physical GPU (device: 3, name: Tesla V100-PCIE-16GB, pci bus id: 0000:89:00.0, compute capability: 7.0)
+2022-04-27 17:40:34.903227: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:196] None of the MLIR optimization passes are enabled (registered 0 passes)
+2022-04-27 17:40:34.941174: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 2600000000 Hz
+/opt/conda/lib/python3.8/site-packages/tensorflow/python/keras/engine/base_layer_v1.py:1719: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+Using snapshot-300000 for model /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/dlc-models/iteration-0/capstoneNov7-trainset99shuffle1
+Starting to analyze %  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/105.mp4
+/scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos  already exists!
+Loading  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/105.mp4
+Duration of video [s]:  61.52 , recorded with  60.0 fps!
+Overall # of frames:  3691  found with (before cropping) frame dimensions:  1280 720
+Starting to extract posture
+  0%|          | 0/3691 [00:00<?, ?it/s]2022-04-27 17:40:36.336108: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2022-04-27 17:40:42.710826: W tensorflow/stream_executor/gpu/asm_compiler.cc:63] Running ptxas --version returned 256
+2022-04-27 17:40:42.810728: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 256, output: 
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+2022-04-27 17:40:44.605819: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2022-04-27 17:40:45.870462: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+  2%|▏         | 72/3691 [02:17<1:55:02,  1.91s/it]  3%|▎         | 108/3691 [02:18<1:07:26,  1.13s/it]  4%|▍         | 144/3691 [02:19<42:32,  1.39it/s]    5%|▍         | 180/3691 [02:21<28:14,  2.07it/s]  6%|▌         | 216/3691 [02:22<19:16,  3.00it/s]  7%|▋         | 252/3691 [02:23<13:38,  4.20it/s]  8%|▊         | 288/3691 [02:24<09:48,  5.78it/s]  9%|▉         | 324/3691 [02:26<07:18,  7.69it/s] 10%|▉         | 360/3691 [02:27<05:27, 10.18it/s] 11%|█         | 396/3691 [02:28<04:23, 12.52it/s] 12%|█▏        | 432/3691 [02:29<03:31, 15.41it/s] 13%|█▎        | 468/3691 [02:30<03:02, 17.68it/s] 14%|█▎        | 504/3691 [02:31<02:34, 20.58it/s] 15%|█▍        | 540/3691 [02:33<02:22, 22.09it/s] 16%|█▌        | 576/3691 [02:34<02:07, 24.44it/s] 17%|█▋        | 612/3691 [02:35<02:02, 25.12it/s] 18%|█▊        | 648/3691 [02:36<01:52, 27.10it/s] 19%|█▊        | 684/3691 [02:38<01:51, 27.05it/s] 20%|█▉        | 720/3691 [02:39<01:43, 28.73it/s] 20%|██        | 756/3691 [02:40<01:44, 28.19it/s] 21%|██▏       | 792/3691 [02:41<01:37, 29.64it/s] 22%|██▏       | 828/3691 [02:43<01:39, 28.69it/s] 23%|██▎       | 864/3691 [02:44<01:34, 29.96it/s] 24%|██▍       | 900/3691 [02:45<01:36, 29.06it/s] 25%|██▌       | 936/3691 [02:46<01:31, 30.20it/s] 26%|██▋       | 972/3691 [02:47<01:33, 29.12it/s] 27%|██▋       | 1008/3691 [02:48<01:28, 30.38it/s] 28%|██▊       | 1044/3691 [02:50<01:30, 29.39it/s] 29%|██▉       | 1080/3691 [02:51<01:22, 31.84it/s] 30%|███       | 1116/3691 [02:52<01:21, 31.54it/s] 31%|███       | 1152/3691 [02:53<01:18, 32.25it/s] 32%|███▏      | 1188/3691 [02:54<01:21, 30.70it/s] 33%|███▎      | 1224/3691 [02:55<01:18, 31.55it/s] 34%|███▍      | 1260/3691 [02:57<01:20, 30.29it/s] 35%|███▌      | 1296/3691 [02:58<01:14, 32.06it/s] 36%|███▌      | 1332/3691 [02:59<01:13, 32.27it/s] 37%|███▋      | 1368/3691 [03:00<01:07, 34.22it/s] 38%|███▊      | 1404/3691 [03:01<01:07, 33.64it/s] 39%|███▉      | 1440/3691 [03:02<01:03, 35.38it/s] 40%|███▉      | 1476/3691 [03:03<01:04, 34.50it/s] 41%|████      | 1512/3691 [03:04<01:03, 34.36it/s] 42%|████▏     | 1548/3691 [03:05<01:05, 32.70it/s] 43%|████▎     | 1584/3691 [03:06<01:00, 34.65it/s] 44%|████▍     | 1620/3691 [03:07<01:03, 32.66it/s] 45%|████▍     | 1656/3691 [03:08<01:01, 33.24it/s] 46%|████▌     | 1692/3691 [03:09<01:03, 31.24it/s] 47%|████▋     | 1728/3691 [03:10<01:01, 32.00it/s] 48%|████▊     | 1764/3691 [03:12<01:01, 31.57it/s] 49%|████▉     | 1800/3691 [03:13<00:56, 33.73it/s] 50%|████▉     | 1836/3691 [03:14<00:55, 33.41it/s] 51%|█████     | 1872/3691 [03:15<00:52, 34.47it/s] 52%|█████▏    | 1908/3691 [03:16<00:54, 32.92it/s] 53%|█████▎    | 1944/3691 [03:17<00:50, 34.56it/s] 54%|█████▎    | 1980/3691 [03:18<00:52, 32.55it/s] 55%|█████▍    | 2016/3691 [03:19<00:50, 33.34it/s] 56%|█████▌    | 2052/3691 [03:20<00:49, 33.28it/s] 57%|█████▋    | 2088/3691 [03:21<00:46, 34.40it/s] 58%|█████▊    | 2124/3691 [03:22<00:46, 33.66it/s] 59%|█████▊    | 2160/3691 [03:23<00:42, 35.63it/s] 59%|█████▉    | 2196/3691 [03:24<00:42, 34.87it/s] 60%|██████    | 2232/3691 [03:25<00:40, 36.19it/s] 61%|██████▏   | 2268/3691 [03:26<00:40, 35.33it/s] 62%|██████▏   | 2304/3691 [03:27<00:37, 36.91it/s] 63%|██████▎   | 2340/3691 [03:28<00:37, 35.81it/s] 64%|██████▍   | 2376/3691 [03:29<00:35, 37.15it/s] 65%|██████▌   | 2412/3691 [03:30<00:35, 35.80it/s] 66%|██████▋   | 2448/3691 [03:31<00:33, 36.88it/s] 67%|██████▋   | 2484/3691 [03:32<00:33, 35.57it/s] 68%|██████▊   | 2520/3691 [03:33<00:31, 37.06it/s] 69%|██████▉   | 2556/3691 [03:34<00:31, 35.93it/s] 70%|███████   | 2592/3691 [03:35<00:29, 36.93it/s] 71%|███████   | 2628/3691 [03:36<00:29, 35.80it/s] 72%|███████▏  | 2664/3691 [03:37<00:27, 37.37it/s] 73%|███████▎  | 2700/3691 [03:38<00:27, 36.18it/s] 74%|███████▍  | 2736/3691 [03:39<00:26, 35.75it/s] 75%|███████▌  | 2772/3691 [03:40<00:27, 33.26it/s] 76%|███████▌  | 2808/3691 [03:41<00:26, 33.84it/s] 77%|███████▋  | 2844/3691 [03:42<00:25, 33.02it/s] 78%|███████▊  | 2880/3691 [03:43<00:23, 34.91it/s] 79%|███████▉  | 2916/3691 [03:44<00:22, 34.44it/s] 80%|███████▉  | 2952/3691 [03:45<00:20, 36.25it/s] 81%|████████  | 2988/3691 [03:46<00:19, 35.34it/s] 82%|████████▏ | 3024/3691 [03:47<00:18, 36.07it/s] 83%|████████▎ | 3060/3691 [03:48<00:18, 34.80it/s] 84%|████████▍ | 3096/3691 [03:49<00:16, 35.95it/s] 85%|████████▍ | 3132/3691 [03:50<00:15, 35.15it/s] 86%|████████▌ | 3168/3691 [03:51<00:14, 36.68it/s] 87%|████████▋ | 3204/3691 [03:52<00:13, 35.70it/s] 88%|████████▊ | 3240/3691 [03:53<00:12, 37.23it/s] 89%|████████▉ | 3276/3691 [03:54<00:11, 36.06it/s] 90%|████████▉ | 3312/3691 [03:55<00:10, 37.54it/s] 91%|█████████ | 3348/3691 [03:56<00:09, 36.37it/s] 92%|█████████▏| 3384/3691 [03:57<00:08, 37.79it/s] 93%|█████████▎| 3420/3691 [03:58<00:07, 36.47it/s] 94%|█████████▎| 3456/3691 [03:59<00:06, 37.57it/s] 95%|█████████▍| 3492/3691 [04:00<00:05, 34.25it/s] 96%|█████████▌| 3528/3691 [04:01<00:04, 34.49it/s] 97%|█████████▋| 3564/3691 [04:03<00:03, 32.83it/s] 98%|█████████▊| 3600/3691 [04:03<00:02, 34.92it/s] 99%|█████████▊| 3636/3691 [04:05<00:01, 34.57it/s] 99%|█████████▉| 3672/3691 [04:05<00:00, 36.41it/s]3708it [04:06, 35.43it/s]                          3708it [04:07, 14.98it/s]
+Saving results in /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos...
+Saving csv poses!
+The videos are analyzed. Now your research can truly start! 
+ You can create labeled videos with 'create_labeled_video'
+If the tracking is not satisfactory for some videos, consider expanding the training set. You can use the function 'extract_outlier_frames' to extract a few representative outlier frames.
