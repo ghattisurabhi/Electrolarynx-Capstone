@@ -1,0 +1,156 @@
+    # Project definitions (do not edit)
+Task: capstone
+scorer: kmt2ns
+date: Nov7
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/1.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/2.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/3.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/7.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/9.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/11.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/15.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/17.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/19.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/21.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/22.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/24.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/27.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/32.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/33.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/34.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/35.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/37.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/38.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/41.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/42.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/45.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/46.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/47.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/53.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/54.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/56.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/58.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/59.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/62.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/64.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/66.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/70.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/72.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/73.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/75.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/77.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/81.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/82.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/84.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/85.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/88.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/89.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/92.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/94.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/97.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/98.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/100.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/103.mp4:
+    crop: 0, 1280, 0, 720
+  /scratch/sa9nc/Capstone/capstone-kmt2ns-2021-11-07/videos/104.mp4:
+    crop: 0, 1280, 0, 720
+
+bodyparts:
+- top
+- left
+- right
+- bottom
+start: 0
+stop: 1
+numframes2pick: 50
+
+    # Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.99
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
